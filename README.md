@@ -65,4 +65,8 @@ This is a proposal for creating restful APIs with node, express, sequelize and m
 | 3 | post /api/users/:userName/posts | Create a new post |
 | 4 | delete /api/users/:userName/posts/:postId | Delete a post by post id |
 | 5 | post /api/users/:userName/posts/:postId | Update a post by post id |
-			
+
+## commands
+* start in development mode: npm run start:dev
+* build the code to es 5: npm run build
+* run unit test: npm run test:unit
