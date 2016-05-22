@@ -54,7 +54,7 @@ const operations = {
 		post.id = postId;
 		return postService
 				.update(post)
-				.then((p)=>{					
+				.then((p)=>{
 					resp.status(200).end();
 				})
 				.catch(e=>{
