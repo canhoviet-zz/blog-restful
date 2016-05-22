@@ -52,7 +52,7 @@ This is a proposal for creating restful APIs with node, express, sequelize and m
 
 | #     | api         | Description |
 |------ | ----------- | ----------- |
-| 1 | get /api/users?limit=< limit>&offset=< offset >&status=< active,inactive >  | Get all users based on input criteria such as status, limit..   |
+| 1 | get /api/users?limit=<#>&offset=<#>&status=< active,inactive >  | Get all users based on input criteria such as status, limit..   |
 | 2 | get /api/users/:userName | Get a user by userName |
 | 3 | post /api/users/ | Create a new user |
 | 4 | delete /api/users/:userName | Delete a user by userName |
@@ -61,10 +61,10 @@ This is a proposal for creating restful APIs with node, express, sequelize and m
 | #     | api         | Description |
 |------ | ----------- | ----------- |
 | 1 | get /api/users/:userName/posts?limit=< limit>&offset=< offset >&status=< active,inactive >  | Get all posts of a user based on input criteria such as status, limit..   |
-| 2 | get /api/users/:userName/posts/:postId | Get a post by id |
+| 2 | get /api/posts/:postId | Get a post by id |
 | 3 | post /api/users/:userName/posts | Create a new post |
-| 4 | delete /api/users/:userName/posts/:postId | Delete a post by post id |
-| 5 | post /api/users/:userName/posts/:postId | Update a post by post id |
+| 4 | delete /api/posts/:postId | Delete a post by post id |
+| 5 | post /api/posts/:postId | Update a post by post id |
 
 ## commands
 * start in development mode: npm run start:dev
