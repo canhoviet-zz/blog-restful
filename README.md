@@ -64,7 +64,7 @@ This is a proposal / example for creating restful APIs with node, express, seque
 | 2 | get **/api/posts/:postId** | Get a post by id |
 | 3 | post **/api/users/:userName/posts** | Create a new post |
 | 4 | delete **/api/posts/:postId** | Delete a post by post id |
-| 5 | post **/api/posts/:postId** | Update a post by post id |
+| 5 | put **/api/posts/:postId** | Update a post by post id |
 
 ## commands
 * start in development mode: **npm run start:dev**
